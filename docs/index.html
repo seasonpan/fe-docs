@@ -15,17 +15,46 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
+      name: 'fe-docs',
       repo: '',
-      basePath: '/fe-docs/',
       loadSidebar: true,
+      // subMaxLevel: 2,
+      formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}',
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: {
+          '/': '搜索',
+          '/en': 'Type to search'
+        },
+        noData: {
+          '/': '找不到结果',
+          '/en': 'No Results'
+        },
+        depth: 2
+      },
       toc: {
         scope: '.markdown-section',
         headings: 'h1, h2, h3, h4, h5, h6',
         title: '📘大纲',
-      }
-      // subMaxLevel: 2,
-      // themeColor: '#3F51B5'
+      },
+      plugins: [
+        function (hook, vm) {
+          var footer = [
+            '<hr/>',
+            '<footer>',
+            '<span>Last modified {docsify-updated}</span>',
+            '<div><span><a href="https://github.com/seasonpan">panpan</a> &copy;2023.</span>',
+            '<span>Published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span></div>',
+            '</footer>'
+          ].join('');
+          hook.beforeEach(function (html) {
+            return (
+              html + footer
+            );
+          });
+        }
+      ]
     }
   </script>
   <!-- Docsify v4 -->
