@@ -7,6 +7,7 @@
     * [CSS 编码规约](fe-style-guide/coding/2.css-style-guide.md)
     * [JavaScript 编码规约](fe-style-guide/coding/3.javascript-style-guide.md)
     * [React 编码规约](fe-style-guide/coding/4.react-style-guide.md)
+    * [Vue 编码规约](fe-style-guide/coding/8.vue-style-guide.md)
     * [Node.js 开发规约](fe-style-guide/coding/5.node-style-guide.md)
     * [TypeScript 编码规约](fe-style-guide/coding/6.typescript-style-guide.md)
     * [Rax 编码规约](fe-style-guide/coding/7.rax-style-guide.md)
