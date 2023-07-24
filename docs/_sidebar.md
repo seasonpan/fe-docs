@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 
 * [首页](Readme.md)
-* [代码规范](前端规约/index.md)
+* [前端规约](前端规约/index.md)
   * 编码规约
     * [HTML 编码规约](前端规约/coding/1.html-style-guide.md)
     * [CSS 编码规约](前端规约/coding/2.css-style-guide.md)
