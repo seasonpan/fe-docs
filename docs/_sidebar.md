@@ -15,3 +15,11 @@
     * [Git 规约](fe-style-guide/engineering/1.git.md)
     * [文档通用规约](fe-style-guide/engineering/2.doc-writing-practice.md)
     * [更新日志规约](fe-style-guide/engineering/3.doc-changelog.md)
+<!-- * [前端性能优化](fe-performance-optimization/index.md)
+* [前端工程质量保障](fe-performance-optimization/index.md)
+* [前端知识整理](fe-study-notes/index.md)
+  * [基础知识](fe-performance-optimization/index.md)
+  * [相关标准](fe-performance-optimization/index.md)
+  * [运行环境](fe-performance-optimization/index.md)
+  * [开发环境](fe-performance-optimization/index.md)
+  * [趋势技术](fe-performance-optimization/index.md) -->
